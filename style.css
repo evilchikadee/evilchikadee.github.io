@@ -1,0 +1,126 @@
+/*periods relate to classes; hashtags relate to ids (kinda like statics)*/
+body {
+    background: -webkit-linear-gradient(#4c173f, #da9496); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#4c173f, #da9496); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#4c173f, #da9496); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#4c173f, #da9496); /* Standard syntax */
+    color: #ffffff;
+}
+/*.imgbuttons {
+    padding: 1% 10%;
+}*/
+
+#art {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+#art:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#resume {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+#resume:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#writing {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+#writing:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+#games {
+  -webkit-transition: -webkit-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;
+}
+#games:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.intro {
+    padding: 1% 15% ; /*6 top/bottom 15 sides*/
+}
+
+#github {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#github:hover, #github:focus, #github:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+#linkedin {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#linkedin:hover, #linkedin:focus, #linkedin:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+
+#facebook {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+#facebook:hover, #facebook:focus, #facebook:active {
+  -webkit-transform: translateY(-8px);
+  transform: translateY(-8px);
+}
+/*.navbar a {
+    color: #ff00ff;
+}*/
+
+h1 {
+    font-family: Trebuchet, sans-serif;
+    font-size: 52px;
+}
+
+.skills li /*can also use ul/ol*/{
+    font-size: 30px;
+    font-style: bold;
+}
+
